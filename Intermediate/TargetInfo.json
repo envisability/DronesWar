@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Drones",
+			"Path": "C:\\GAM.Workspace.2020\\GAM305\\final_project_sideslider\\Drones\\Source\\Drones.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DronesEditor",
+			"Path": "C:\\GAM.Workspace.2020\\GAM305\\final_project_sideslider\\Drones\\Source\\DronesEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

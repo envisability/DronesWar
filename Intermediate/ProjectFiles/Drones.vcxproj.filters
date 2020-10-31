@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Drones.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3D1AA3B5-F90D-4A17-9E5D-8F7C107A152C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Drones.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DronesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5549F0C5-E136-4863-9C93-B680276EE517}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Drones">
+      <UniqueIdentifier>{BFFC1A44-50D4-494F-B47F-3DB2541130F0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Drones\Drones.Build.cs">
+      <Filter>Source\Drones</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Drones\Drones.cpp">
+      <Filter>Source\Drones</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Drones\Drones.h">
+      <Filter>Source\Drones</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Drones\DronesGameModeBase.cpp">
+      <Filter>Source\Drones</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Drones\DronesGameModeBase.h">
+      <Filter>Source\Drones</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Drones\Public">
+      <UniqueIdentifier>{868158e7-b74a-415d-9a9b-e966c2f5b3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Drones\Private">
+      <UniqueIdentifier>{87b4dd54-204f-40c5-8358-a944f2b2495b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Drones\Public\CharacterBase.h">
+      <Filter>Source\Drones\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Drones\Private\CharacterBase.cpp">
+      <Filter>Source\Drones\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
