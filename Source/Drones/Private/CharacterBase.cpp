@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
-#include "CharacterBase.h"
+#include "..\Public\CharacterBase.h"
 
 // Sets default values
 ACharacterBase::ACharacterBase()
@@ -18,6 +17,16 @@ void ACharacterBase::BeginPlay()
 	
 }
 
+void ACharacterBase::MoveForward(float Value)
+{
+	AddMovementInput(GetActorForwardVector() * Value);
+}
+
+void ACharacterBase::MoveRight(float Value)
+{
+	AddMovementInput(GetActorRightVector() * Value);
+}
+
 // Called every frame
 void ACharacterBase::Tick(float DeltaTime)
 {
@@ -29,6 +38,14 @@ void ACharacterBase::Tick(float DeltaTime)
 void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	PlayerInputComponent->BindAxis("MoveForward", this, &ACharacterBase::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &ACharacterBase::MoveRight);
+
+	PlayerInputComponent->BindAxis("LookUp", this, &ACharacterBase::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis("Turn", this, &ACharacterBase::AddControllerYawInput);
+
+
 
 }
 

@@ -1,7 +1,7 @@
-C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\Definitions.Drones.h
-C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Source\Drones\DronesGameModeBase.h
+E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\Definitions.Drones.h
+E:\GamesWorkspace2021\Drones\Source\Drones\DronesGameModeBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Inc\Drones\DronesGameModeBase.generated.h
+E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\UE4Editor\Inc\Drones\DronesGameModeBase.generated.h

@@ -257,11 +257,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine
-/Yc"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine
+/Yc"E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

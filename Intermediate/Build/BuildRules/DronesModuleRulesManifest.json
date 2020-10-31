@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\GAM.Workspace.2020\\GAM305\\final_project_sideslider\\Drones\\Source\\Drones\\Drones.Build.cs",
-		"C:\\GAM.Workspace.2020\\GAM305\\final_project_sideslider\\Drones\\Source\\Drones.Target.cs",
-		"C:\\GAM.Workspace.2020\\GAM305\\final_project_sideslider\\Drones\\Source\\DronesEditor.Target.cs"
+		"E:\\GamesWorkspace2021\\Drones\\Source\\Drones\\Drones.Build.cs",
+		"E:\\GamesWorkspace2021\\Drones\\Source\\Drones.Target.cs",
+		"E:\\GamesWorkspace2021\\Drones\\Source\\DronesEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }

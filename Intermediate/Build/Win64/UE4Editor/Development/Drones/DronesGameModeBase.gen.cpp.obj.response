@@ -31,7 +31,7 @@
 /wd4838
 /we4668
 /I .
-/I C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Source\Drones\Private
+/I E:\GamesWorkspace2021\Drones\Source\Drones\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -229,9 +229,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\AudioMixerCore\Public
-/I C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Inc\Drones
-/I C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Source
-/I C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Source\Drones\Public
+/I E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\UE4Editor\Inc\Drones
+/I E:\GamesWorkspace2021\Drones\Source
+/I E:\GamesWorkspace2021\Drones\Source\Drones\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Inc\Drones\DronesGameModeBase.gen.cpp"
-/FI"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\Definitions.Drones.h"
-/Fo"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\DronesGameModeBase.gen.cpp.obj"
+/FI"E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\UE4Editor\Inc\Drones\DronesGameModeBase.gen.cpp"
+/FI"E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\Definitions.Drones.h"
+/Fo"E:\GamesWorkspace2021\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\DronesGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4

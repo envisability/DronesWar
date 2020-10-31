@@ -7,8 +7,10 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\DronesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\CharacterBase.cpp.obj"
 "C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\Drones.cpp.obj"
 "C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\DronesGameModeBase.cpp.obj"
+"C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\CharacterBase.gen.cpp.obj"
 "C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\Drones.init.gen.cpp.obj"
 "C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\DronesGameModeBase.gen.cpp.obj"
 "C:\GAM.Workspace.2020\GAM305\final_project_sideslider\Drones\Intermediate\Build\Win64\UE4Editor\Development\Drones\Default.rc2.res"
