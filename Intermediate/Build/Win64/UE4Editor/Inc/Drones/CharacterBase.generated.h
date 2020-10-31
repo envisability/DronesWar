@@ -58,7 +58,13 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACharacterBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACharacterBase)
 
 
-#define Drones_Source_Drones_Public_CharacterBase_h_12_PRIVATE_PROPERTY_OFFSET
+#define Drones_Source_Drones_Public_CharacterBase_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ACharacterBase, CameraBoom); } \
+	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ACharacterBase, FollowCamera); } \
+	FORCEINLINE static uint32 __PPO__BaseTurnRate() { return STRUCT_OFFSET(ACharacterBase, BaseTurnRate); } \
+	FORCEINLINE static uint32 __PPO__BaseLookUpRate() { return STRUCT_OFFSET(ACharacterBase, BaseLookUpRate); }
+
+
 #define Drones_Source_Drones_Public_CharacterBase_h_9_PROLOG
 #define Drones_Source_Drones_Public_CharacterBase_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

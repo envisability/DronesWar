@@ -23,6 +23,23 @@ protected:
 
 	void MoveRight(float Value);
 
+	// Camera boom positioning the camera behind the player
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class USpringArmComponent* CameraBoom;
+
+	// Follow Camera 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class UCameraComponent* FollowCamera;
+
+
+	// Base turn rates to scale turning functions for the camera
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	float BaseTurnRate;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	float BaseLookUpRate;
+
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
